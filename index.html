@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 3: Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="bar" role="banner">
+    <h1>Lab 3: Rock Paper Scissors</h1>
+  </header>
+
+  <nav class="top-nav" aria-label="Primary">
+    <ul>
+      <li><a href="https://finance.yahoo.com/" target="_blank" rel="noopener">Yahoo Finance</a></li>
+      <li><a class="active" href="https://gemini.google.com" target="_blank" rel="noopener">Gemini</a></li>
+      <li><a href="https://www.testudo.umd.edu/" target="_blank" rel="noopener">Testudo</a></li>
+    </ul>
+  </nav>
+
+  <main class="wrap">
+    <section class="panel main" aria-labelledby="choose">
+      <h2 id="choose">Please choose one of the following.</h2>
+
+      <form action="#" method="post" class="choice-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="field">
+          <span class="inline">Your choice:</span>
+          <select name="pick" id="pick">
+            <option>Rock</option>
+            <option>Paper</option>
+            <option>Scissors</option>
+          </select>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <aside class="panel side" aria-labelledby="rules">
+      <h3 id="rules">Rules</h3>
+      <p>Ye must choose Rock, Paper or Scissors</p>
+      <h4>Thy Combos are as follows:</h4>
+      <ul>
+        <li>Rock defeateth Scissors</li>
+        <li>Scissors defeateth Paper</li>
+        <li>Paper defeateth Rock</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="bar" role="contentinfo">
+    <p>How did i get here?</p>
+  </footer>
+</body>
+</html>
